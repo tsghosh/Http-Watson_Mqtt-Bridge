@@ -1,0 +1,28 @@
+{
+  "name": "http-watson_mqtt-bridge",
+  "version": "1.0.0",
+  "description": "HTTP to Watson MQTT bridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsghosh/Http-Watson_Mqtt-Bridge.git"
+  },
+  "keywords": [
+    "http to mqtt",
+    "http to mqtt broker",
+    "http to watson iot broker"
+  ],
+  "author": "t s ghosh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsghosh/Http-Watson_Mqtt-Bridge/issues"
+  },
+  "homepage": "https://github.com/tsghosh/Http-Watson_Mqtt-Bridge#readme",
+  "dependencies": {
+    "ibmiotf": "^0.2.41"
+  }
+}
